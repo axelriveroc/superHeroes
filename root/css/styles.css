@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 98vw;
+    align-items: center;
+    height: 200vh;
+}
+
+.cards{
+    display: flex;
+    width: 80%;
+    height: 90vh;
+    justify-content: space-around;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    position: relative;
+    bottom: 3rem;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+}
+
+.descripcion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    /* position: relative;
+    bottom: 2rem; */
+}
+
+.background-img1{
+    background-image: url('/images/fondo-batman.png');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 50%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.background-img2{
+    background-image: url('/images/fondo-mujerM.png');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 50%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.background-img3{
+    background-image: url('/images/fondo-superman.png');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 50%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.background-img4{
+    background-image: url('/images/fonde-harleyQ.png');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.descripcion p{
+    padding: 10px 0;
+    color: #333333;
+
+}
+
+button{
+    padding: 20px;
+    width: 60%;
+    background-color:#00669F;
+    color: #f3f3f3;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
